@@ -1,0 +1,86 @@
+.top {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    position: fixed;
+    z-index:1000;
+    top: 0;
+    width: 100%;
+    padding: 40px;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.row-flex {
+    background-color: purple;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.flex-item {
+    border: 2px solid black;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.flex-box {
+    background-color: white;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.centered-flex {
+    background-color: orange;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.centered-item {
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+
+.eight-boxes {
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+.bottom-flex {
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    align-items: stretch;
+}
+
+.fixed-width {
+    width: 200px;
+    background-color: orange;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.flex-grow {
+    flex-grow: 1;
+    background-color: lightgreen;
+    padding: 20px;
+    border: 2px solid black;
+}
